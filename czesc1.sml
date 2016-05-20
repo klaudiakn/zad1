@@ -18,7 +18,7 @@ struct
 
   fun fib n = 
 	if n = 1 then 1
-	else if n =2 then 2 
+	else if n =2 then 2 (*z jakiegosc powodu uciekla mi ta dwojka w tym miejscu*)
 	else fib(n-1) + fib(n-2)	
 
   fun gcd (n, m) =
